@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <script type="text/javascript" src="../lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/angular-1.4.0/angular.min.js"></script>
+    <script type="text/javascript" src="../lib/layer/2.1/layer.js"></script>
+    <script type="text/javascript" src="../js/personal.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/Hui-iconfont/1.0.7/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/icheck/icheck.css" />
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/style.css" />
+    <title>学生信息修改</title>
+    <link rel="stylesheet" href="../frameworks/bootstrap-3.3.0-dist/css/bootstrap.min.css">
+</head>
+<body ng-controller="personalCtrl">
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 学生信息 <span class="c-gray en">&gt;</span> 学生信息修改 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:-3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    <form action="../ashx/updatePersonal.ashx" method="get">
+        <!--{{personal}}-->
+        <table class="table table-bordered">
+            <tr>
+                <td>学号</td>
+                <td><input type="text" name="stu_id" ng-model="personal.stu_id" readonly="readonly"></td>
+                <td>性别</td>
+                <td><input type="text" name="gender" ng-model="personal.gender" readonly="readonly"></td>
+                <td colspan="4" rowspan="4"><input type="file"></td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td><input type="text" name="name" ng-model="personal.name" readonly="readonly"></td>
+                <td>民族</td>
+                <td><input type="text" name="nation" ng-model="personal.nation" readonly="readonly"></td>
+            </tr>
+            <tr>
+                <td>入学时间</td>
+                <td><input type="text" name="admission" ng-model="personal.admission" readonly="readonly"></td>
+                <td>政治面貌</td>
+                <td><input type="text" name="zhengzhimm" nation="zhengzhimm" ng-model="personal.zhengzhimm"></td>
+            </tr>
+            <tr>
+                <td>手机号码</td>
+                <td><input type="text" name="phone" ng-model="personal.phone"></td>
+                <td>出生日期</td>
+                <td><input type="text" name="birthday" ng-model="personal.birthday"></td>
+            </tr>
+            <tr>
+                <td>身份证号</td>
+                <td><input type="text" name="IDnumber" ng-model="personal.IDnumber" readonly="readonly"></td>
+                <td>邮政编码</td>
+                <td><input type="text" name="Postcode" ng-model="personal.Postcode"></td>
+                <td>密码</td>
+                <td><input type="text" name="password" ng-model="personal.password"></td>
+            </tr>
+            <tr>
+                <td>生源地</td>
+                <td colspan="5"><input type="text" name="shengyuandi" ng-model="personal.shengyuandi"></td>
+            </tr>
+            <tr>
+                <td>联系地址</td>
+                <td colspan="5"><input type="text" name="address" ng-model="personal.address"></td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="submit" class="btn btn-danger" value="确定"></td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+</body>
+</html>

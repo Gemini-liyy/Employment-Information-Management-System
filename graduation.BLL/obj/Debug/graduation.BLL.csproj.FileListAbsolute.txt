@@ -1,0 +1,11 @@
+E:\graduation2\graduation.BLL\bin\Debug\graduation.BLL.dll
+E:\graduation2\graduation.BLL\bin\Debug\graduation.BLL.pdb
+E:\graduation2\graduation.BLL\bin\Debug\Chloe.dll
+E:\graduation2\graduation.BLL\bin\Debug\Chloe.SqlServer.dll
+E:\graduation2\graduation.BLL\bin\Debug\graduation.Model.dll
+E:\graduation2\graduation.BLL\bin\Debug\Tinge.DBHelp.dll
+E:\graduation2\graduation.BLL\bin\Debug\graduation.Model.pdb
+E:\graduation2\graduation.BLL\bin\Debug\Tinge.DBHelp.pdb
+E:\graduation2\graduation.BLL\obj\Debug\graduation.BLL.csprojResolveAssemblyReference.cache
+E:\graduation2\graduation.BLL\obj\Debug\graduation.BLL.dll
+E:\graduation2\graduation.BLL\obj\Debug\graduation.BLL.pdb

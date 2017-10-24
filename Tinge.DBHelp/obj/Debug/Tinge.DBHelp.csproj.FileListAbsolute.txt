@@ -1,0 +1,15 @@
+E:\pages\Task\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.csprojResolveAssemblyReference.cache
+E:\pages\Task\Tinge.DBHelp\bin\Debug\Tinge.DBHelp.dll
+E:\pages\Task\Tinge.DBHelp\bin\Debug\Tinge.DBHelp.pdb
+E:\pages\Task\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.dll
+E:\pages\Task\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.pdb
+E:\tfs\任务管理平台\Task\Tinge.DBHelp\bin\Debug\Tinge.DBHelp.dll
+E:\tfs\任务管理平台\Task\Tinge.DBHelp\bin\Debug\Tinge.DBHelp.pdb
+E:\tfs\任务管理平台\Task\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.csprojResolveAssemblyReference.cache
+E:\tfs\任务管理平台\Task\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.dll
+E:\tfs\任务管理平台\Task\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.pdb
+E:\graduation2\Tinge.DBHelp\bin\Debug\Tinge.DBHelp.dll
+E:\graduation2\Tinge.DBHelp\bin\Debug\Tinge.DBHelp.pdb
+E:\graduation2\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.dll
+E:\graduation2\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.pdb
+E:\graduation2\Tinge.DBHelp\obj\Debug\Tinge.DBHelp.csprojResolveAssemblyReference.cache

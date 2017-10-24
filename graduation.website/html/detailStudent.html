@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <script type="text/javascript" src="../lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/angular-1.4.0/angular.min.js"></script>
+    <script type="text/javascript" src="../lib/layer/2.1/layer.js"></script>
+    <script type="text/javascript" src="../js/stu.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/Hui-iconfont/1.0.7/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/icheck/icheck.css" />
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/style.css" />
+    <title>个人信息</title>
+    <link rel="stylesheet" href="../frameworks/bootstrap-3.3.0-dist/css/bootstrap.min.css">
+</head>
+<body ng-controller="stuCtrl">
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 个人信息  <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:-3px" href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <div class="page-container">
+        <!--{{student}}-->
+            <table class="table table-border table-bordered">
+                <tr>
+                    <td width="10%">学号</td>
+                    <td width="25%">{{student.stu_id}}</td>
+                    <td width="10%">性别</td>
+                    <td width="25%">{{student.gender}}</td>
+                    <td colspan="4" rowspan="4" width="30%"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>姓名</td>
+                    <td>{{student.name}}</td>
+                    <td>民族</td>
+                    <td>{{student.nation}}</td>
+                </tr>
+                <tr>
+                    <td>入学时间</td>
+                    <td>{{student.admission}}</td>
+                    <td>政治面貌</td>
+                    <td>{{student.zhengzhimm}}</td>
+                </tr>
+                <tr>
+                    <td>手机号码</td>
+                    <td>{{student.phone}}</td>
+                    <td>出生日期</td>
+                    <td>{{student.birthday}}</td>
+                </tr>
+                <tr>
+                    <td>身份证号</td>
+                    <td>{{student.IDnumber}}</td>
+                    <td>邮政编码</td>
+                    <td>{{student.Postcode}}</td>
+                    <td width="10%">密码</td>
+                    <td>{{student.password}}</td>
+                </tr>
+                <tr>
+                    <td>生源地</td>
+                    <td colspan="5">{{student.shengyuandi}}</td>
+                </tr>
+                <tr>
+                    <td>联系地址</td>
+                    <td colspan="5">{{student.address}}</td>
+                </tr>
+                <tr>
+                    <td>就业企业</td>
+                    <td colspan="5">{{student.enterprize}}</td>
+                </tr>
+            </table>
+    </div>
+</body>
+</html>

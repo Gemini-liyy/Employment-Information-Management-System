@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "graduation.website", "graduation.website", "{FFB04BF2-7834-4AD2-857A-B0F995132927}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{fedab4d2-137a-406e-89d7-6938aef8b6b6}|graduation.BLL.dll;{CF7ED98C-6DC5-4869-9A72-46C76B510394}|graduation.Model.dll;{385CE98D-DFE7-4BC2-A74F-4204D10CA9A4}|Tinge.DBHelp.dll;{cd531a8e-14c5-4594-b3a7-201f1f6ce5ef}|Tinge.Extension.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54257"
+		Debug.AspNetCompiler.PhysicalPath = "graduation.website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54257\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54257"
+		Release.AspNetCompiler.PhysicalPath = "graduation.website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54257\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54257"
+		SlnRelativePath = "graduation.website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graduation.Model", "graduation.Model\graduation.Model.csproj", "{CF7ED98C-6DC5-4869-9A72-46C76B510394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tinge.DBHelp", "Tinge.DBHelp\Tinge.DBHelp.csproj", "{385CE98D-DFE7-4BC2-A74F-4204D10CA9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graduation.BLL", "graduation.BLL\graduation.BLL.csproj", "{FEDAB4D2-137A-406E-89D7-6938AEF8B6B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tinge.Extension", "Tinge.Extension\Tinge.Extension.csproj", "{CD531A8E-14C5-4594-B3A7-201F1F6CE5EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFB04BF2-7834-4AD2-857A-B0F995132927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB04BF2-7834-4AD2-857A-B0F995132927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB04BF2-7834-4AD2-857A-B0F995132927}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB04BF2-7834-4AD2-857A-B0F995132927}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CF7ED98C-6DC5-4869-9A72-46C76B510394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7ED98C-6DC5-4869-9A72-46C76B510394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7ED98C-6DC5-4869-9A72-46C76B510394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7ED98C-6DC5-4869-9A72-46C76B510394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385CE98D-DFE7-4BC2-A74F-4204D10CA9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385CE98D-DFE7-4BC2-A74F-4204D10CA9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385CE98D-DFE7-4BC2-A74F-4204D10CA9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385CE98D-DFE7-4BC2-A74F-4204D10CA9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDAB4D2-137A-406E-89D7-6938AEF8B6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDAB4D2-137A-406E-89D7-6938AEF8B6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDAB4D2-137A-406E-89D7-6938AEF8B6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDAB4D2-137A-406E-89D7-6938AEF8B6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD531A8E-14C5-4594-B3A7-201F1F6CE5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD531A8E-14C5-4594-B3A7-201F1F6CE5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD531A8E-14C5-4594-B3A7-201F1F6CE5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD531A8E-14C5-4594-B3A7-201F1F6CE5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="../lib/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../lib/angular-1.4.0/angular.min.js"></script>
+	<script src="../js/login.js"></script>
+	<title>高校毕业生基业信息管理登录</title>
+	<link rel="stylesheet" href="../frameworks/bootstrap-3.3.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+	<div class="content">
+		<div class="header text-center">
+			<h2>毕业生就业管理系统</h2>
+		</div>
+		<!--<form action="">-->
+			<div class="form-login">
+				<h3 class="text-center">登录</h3>
+				<div class="con">
+					<p>用户名：</p>
+					<input type="text" class="user" name="stu_id">
+					<p>密码：</p>
+					<input type="password" class="password" name="password">
+					<p>类型：</p>
+					<select class="type" name="type">
+						<option value="admin">管理员</option>
+						<option value="student">学生</option>
+					</select>
+					<div class="do-password">
+						<div class="remenber-password" style="display:inline-block">
+							<input type="checkbox"><span> 记住密码</span>
+						</div>
+						<div class="forget-password" style="display:inline-block;margin-left:120px">
+							<a href="">忘记密码？</a>
+						</div>
+					</div>
+					<button class="btn login">登录</button>
+				</div>
+			</div>
+	</div>
+</body>
+</html>

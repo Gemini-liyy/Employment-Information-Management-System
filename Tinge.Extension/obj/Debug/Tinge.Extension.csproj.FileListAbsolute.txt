@@ -1,0 +1,7 @@
+E:\graduation2\Tinge.Extension\bin\Debug\Tinge.Extension.dll
+E:\graduation2\Tinge.Extension\bin\Debug\Tinge.Extension.pdb
+E:\graduation2\Tinge.Extension\bin\Debug\Newtonsoft.Json.dll
+E:\graduation2\Tinge.Extension\bin\Debug\Newtonsoft.Json.xml
+E:\graduation2\Tinge.Extension\obj\Debug\Tinge.Extension.dll
+E:\graduation2\Tinge.Extension\obj\Debug\Tinge.Extension.pdb
+E:\graduation2\Tinge.Extension\obj\Debug\Tinge.Extension.csprojResolveAssemblyReference.cache

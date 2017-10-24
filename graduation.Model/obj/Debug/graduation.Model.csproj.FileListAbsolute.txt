@@ -1,0 +1,5 @@
+E:\graduation2\graduation.Model\bin\Debug\graduation.Model.dll
+E:\graduation2\graduation.Model\bin\Debug\graduation.Model.pdb
+E:\graduation2\graduation.Model\obj\Debug\graduation.Model.dll
+E:\graduation2\graduation.Model\obj\Debug\graduation.Model.pdb
+E:\graduation2\graduation.Model\obj\Debug\graduation.Model.csprojResolveAssemblyReference.cache
